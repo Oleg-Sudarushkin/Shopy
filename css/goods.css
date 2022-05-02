@@ -1,0 +1,85 @@
+html, body{
+    margin: 0;
+    box-sizing: border-box;
+    background:#f6f8f9 ;
+    font-family: arial, tahoma, sans-serif;
+    color: #44525e;
+}
+P{
+    margin: 0;
+}
+h3{
+    font-style: 36px;
+    text-align: center;
+    margin: 20px 0;
+}
+h3 span{
+    color: #ff7013;
+}
+.section-description{
+    text-align: center;
+
+}
+.goods-block{
+    margin: 80px 0;
+}
+.container{
+    width: 1200px;
+    margin: 10px auto;
+}
+.goods-cart{
+    background: #fff;
+    min-height: 350px;
+    text-align: center;
+    font-size: 18px;
+}
+.goods-cart img{
+    margin-top: 30px;
+}
+.goods-cart .goods-name{
+    color: #43525d;
+    font-size: 18px;
+}
+.goods-cart .cost{
+    color:#ff7013 ;
+}
+/* --------------из футера-------------------------- */
+
+p{
+    margin: 0;
+}
+h3{
+    margin: 20px 0;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+}
+h3 span{
+    color: #ff7013;
+}
+.section-description{
+    text-align: center;
+}
+.container{
+    width: 1200px;
+    margin: 10px auto;
+}
+.row{
+    margin: 0 -1.25%;
+
+}
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/* ------------------------site footer */
+.site-footer{
+    padding: 60px 0 44px 0;
+    font-size: 14px;
+    color: #28313b;
+}
+.site-footer h1, .site-footer h2, .site-footer h3, .site-footer h4{
+    font-size: 16px;
+    color: #ff5912;
+}
